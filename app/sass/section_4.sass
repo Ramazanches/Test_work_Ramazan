@@ -1,0 +1,95 @@
+%bg-parametres
+	background-clip: content-box
+	background-origin: content-box
+	background-size: contain
+	background-repeat: no-repeat
+
+.section_4
+	padding-top: 88px
+	height: 808px
+	background-size: contain
+	background-repeat: no-repeat
+	background-image: url('../images/src/section_4/background.jpg')
+	border-radius: 25% 0 0 0
+
+	@media screen and (max-width: 414px)
+		background-image: url('../images/src/section_4_mobile/background.jpg')
+		width: 414px
+		height: 1590px
+		padding: 0
+
+	.section_4__title 
+		margin: 0 auto 88px auto
+		font-weight: bold
+		font-size: 40px
+		line-height: 57px
+		text-align: center
+		letter-spacing: 0.2px
+		color: #FFFFFF
+
+		@media screen and (max-width: 414px)
+			position: relative
+			top: 88px
+			width: 222px
+
+	.section_4__card-wrapper
+		margin-top: 88px
+		margin-left: 182px
+		width: 430px
+		flex-direction: column
+
+		@media screen and (max-width: 414px)
+			margin: 88px auto 0 auto
+
+		.section_4__card-block
+			width: 100%
+			display: flex
+					
+			@media screen and (max-width: 414px)
+				flex-direction: column
+
+			&:last-child
+				margin-top: 105px
+
+				@media screen and (max-width: 414px)
+					margin-top: 0
+
+			.section_4__card
+				position: relative
+				margin: 0 60px
+				width: 136px
+
+				@media screen and (max-width: 414px)
+					margin-top: 93px
+					margin-right: 0
+					margin-left: 120px
+
+				.section_4__card-icon
+					margin: 0 auto
+					width: 65px
+					height: 70px
+					background-color: transparent
+
+					&:nth-child(1)
+						background-image: url('../images/src/section_4/clarity_users-line.svg')	
+						background-size: contain
+						background-repeat: no-repeat
+
+				.section_4__card-title
+					margin: 0 auto
+					font-weight: 500
+					font-size: 58px
+					line-height: 80px
+					text-align: center
+					letter-spacing: 0.2px
+					color: #FFFFFF
+
+				.section_4__card-subtitle
+					width: 100%
+					margin: 0 auto
+					font-weight: bold
+					font-size: 16px
+					line-height: 24px
+					text-align: center
+					letter-spacing: 0.1px
+					color: #FFFFFF

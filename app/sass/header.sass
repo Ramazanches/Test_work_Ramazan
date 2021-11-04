@@ -1,0 +1,138 @@
+header 
+	position: relative
+	width: 1440px
+	height: 682px	
+	background-image: url('../images/src/header/background.jpg')
+	background-size: contain
+
+	@media screen and (max-width: 414px)
+		width: 414px
+		height: 682px
+		background-image: url('../images/src/header_mobile/filter.jpg')
+		background-repeat: no-repeat
+	
+
+	.background-shadow
+		height: 682px
+		background: rgba(23, 23, 23, 0.5)
+
+		nav.navbar
+			display: flex
+
+			.navbar-logo 
+				margin: 36px 197px 150px 193px
+				font-size: 24px
+				font-weight: 400
+				line-height: 32px
+				letter-spacing: 0.1px
+				color: #BDBDBD
+
+				@media screen and (max-width: 414px)
+					margin: 36px 138px 102px 31px
+
+				span.navbar-logo_mark
+					font-weight: 700
+					color: #fff
+
+			ul.navbar-nav 
+				margin-top: 40px
+				margin-right: 285px
+				list-style-type: none
+				display: flex
+
+				@media screen and (max-width: 414px)
+					display: none				
+
+				li.navbar-nav__item 
+					margin-left: 35px
+
+					a.navbar-nav__link
+						text-decoration: none
+						font-size: 14px
+						font-weight: 600
+						line-height: 24px
+						letter-spacing: 0.2px
+						text-align: center
+						color: #BDBDBD
+
+						&:hover
+							color: #fff
+			.burger-menu
+				margin-top: 44px
+				margin-right: 34px
+				width: 26px
+				height: 16px
+				background-size: contain
+				background-image: url('../images/src/header_mobile/burger.svg')
+				display: none
+
+				@media screen and (max-width: 414px)
+					display: block
+					
+
+			.navbar-search
+				width: 20px
+				height: 20px
+				margin-top: 42px
+				background-size: contain
+				background-repeat: no-repeat
+				background-image: url('../images/src/header/Vector.svg')
+				cursor: pointer
+
+				&:hover
+					background-image: url('../images/src/header/Vector-white.svg')
+				
+				@media screen and (max-width: 414px)
+					margin-right: 25px
+				
+				
+				
+
+		.section_1__text
+			color: #fff			
+
+			.section_1__title-sm 
+				margin-top: 116px
+				text-transform: uppercase
+				font-weight: 700
+				font-size: 16px
+				line-height: 24px
+				letter-spacing: 0.1px
+				text-align: center
+
+			.section_1__title
+				margin: 14px auto 11px auto
+				width: 410px
+				position: relative
+				font-weight: 500
+				font-size: 58px
+				line-height: 80px
+				color: #FFFFFF
+				text-align: center
+
+				@media screen and (max-width: 414px)
+					width: 283px
+					font-size: 40px	
+					line-height: 57px
+					font-weight: 500		
+
+			.section_1__subtitle
+				margin: auto
+				width: 379px
+				height: 40px
+				font-weight: 500
+				font-size: 24px
+				line-height: 40px
+				text-align: center
+				letter-spacing: 0.2px
+				color: #FFFFFF
+
+				@media screen and (max-width: 414px)
+					width: 207px
+					height: 80px
+					font-size: 24px
+					line-height: 40px
+				    
+				
+
+

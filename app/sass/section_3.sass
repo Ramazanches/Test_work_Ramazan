@@ -1,0 +1,153 @@
+%bg-parametres
+	background-clip: content-box
+	background-origin: content-box
+	background-size: contain
+	background-repeat: no-repeat
+
+.section_3
+	width: 100%
+
+	@media screen and (max-width: 414px)
+		width: 414px
+
+	.section_3__title-wrap
+		margin: auto
+		width: 100%
+
+		.section_3__subtitle 
+			margin-top: 224px
+			font-weight: 500
+			font-size: 16px
+			line-height: 26px
+			text-align: center
+			letter-spacing: 0.2px
+			color: #E74040
+
+			@media screen and (max-width: 414px)
+				margin-top: 210px
+				width: 136px
+				margin: 156px auto 0 auto
+
+		.section_3__title
+			margin: 10px auto 0 auto
+			width: 373px
+			font-weight: bold
+			font-size: 40px
+			line-height: 57px
+			text-align: center
+			letter-spacing: 0.2px
+			color: #252B42
+
+			@media screen and (max-width: 414px)
+				margin: 30px auto 0 auto
+
+	.section_3__content-wrapper
+		display: flex
+
+		@media screen and (max-width: 414px)
+			flex-direction: column
+		
+		.section_3__frame-primary
+			margin: 96px 123px 147px 195px
+			width: 510px
+			height: 424px
+			@extend %bg-parametres
+			background: url('../images/src/section_3/Frame 8.jpg')
+			filter: drop-shadow(0px 13px 19px rgba(0, 0, 0, 0.07))
+
+			@media screen and (max-width: 414px)
+				width: 311px
+				margin: 0 auto 0 35px
+
+			.section_3__frame_secondary
+				margin-top: -15px
+				margin-left: 205px
+				width: 362px
+				height: 230px
+				filter: drop-shadow(0px 13px 19px rgba(0, 0, 0, 0.07))
+				background-image: url('../images/src/section_3/man.jpg')
+
+				@media screen and (max-width: 414px)
+					width: 285px
+					margin: 68px auto 0 60px
+
+		.section_3__text-wrapper
+			width: 346px
+			margin-top: 133px
+			display: flex
+			flex-direction: column
+
+			.section_3__text-title
+				margin: 0
+				font-weight: bold
+				font-size: 24px
+				line-height: 32px
+				letter-spacing: 0.1px
+				color: #252B42
+
+				@media screen and (max-width: 414px)
+					margin: 0 auto
+				
+			.section_3__text-paragraph
+				margin-top: 23px
+				width: 346px
+				font-weight: 500
+				font-size: 16px
+				line-height: 26px
+				letter-spacing: 0.2px
+
+				@media screen and (max-width: 414px)
+					margin: 23px auto 0 auto
+				
+			.text-link
+				margin-top: 29px
+				font-weight: 600
+				font-size: 14px
+				line-height: 24px
+				text-align: right
+				letter-spacing: 0.2px
+				color: #737373
+				text-decoration: none
+
+				@media screen and (max-width: 414px)
+					text-align: left
+					padding-left: 34px
+
+		.section_3__pagination
+			min-width: 173px
+			margin-top: 52px
+			margin-left: 185px
+			display: flex
+			align-items: center
+
+			@media screen and (max-width: 414px)
+				margin: 52px auto 80px auto
+
+			.section_3__page-prev
+				width: 26px
+				height: 43px
+				background-image: url('../images/src/section_3/prev.svg')
+
+				.section_3__page-link
+
+			.section_3__page-item
+				margin: 0 36px
+				color: #737373
+				font-weight: 500
+				font-size: 24px
+				line-height: 40px
+				text-align: right
+				letter-spacing: 0.2px
+				color: #737373
+
+				.section_3__page-item-current
+					cursor: pointer
+
+			.section_3__page-next
+				width: 26px
+				height: 43px
+				background-image: url('../images/src/section_3/next.svg')
+				cursor: pointer
+
+				.section_3__page-link
+					text-decoration: none

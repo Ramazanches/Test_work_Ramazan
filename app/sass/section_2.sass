@@ -1,0 +1,202 @@
+
+%bg-parametres
+	background-clip: content-box
+	background-origin: content-box
+	background-size: contain
+	background-repeat: no-repeat
+
+.section_2
+
+	@media screen and (max-width: 414px)
+		width: 414px
+	
+	
+
+	.section_2__text
+		margin: 0 auto 165px auto
+
+		.section_2__title
+			margin-bottom: 13px
+			font-weight: bold
+			font-size: 40px
+			line-height: 57px
+			text-align: center
+			letter-spacing: 0.2px
+			color: #252B42
+
+			@media screen and (max-width: 414px)
+				margin: 184px auto 40px auto
+				width: 264px
+
+		.section_2__subtitle
+			margin: 0 auto
+			width: 601px
+			font-weight: 500
+			font-size: 16px
+			line-height: 26px
+			text-align: center
+			letter-spacing: 0.2px
+			color: #737373
+
+			@media screen and (max-width: 414px)
+				width: 271px
+			
+			
+
+	.section_2__card-base-wrapper		
+		display: flex
+
+		@media screen and (max-width: 414px)	
+			flex-direction: column
+
+		.section_2__card-wrapper
+			margin-left: 195px
+
+			@media screen and (max-width: 414px)
+				display: flex
+				flex-direction: column
+				margin: auto
+			    
+			
+
+			.section_2__card
+				width: 330px
+				box-sizing: border-box
+				border-radius: 5px
+				display: flex
+				cursor: pointer
+
+				&:first-child
+					background: #fff
+					box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07)
+					border: 1px solid #F1F1F1
+
+				&:hover
+					background: #fff
+					box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07)
+					border: 1px solid #F1F1F1
+
+
+
+				.section_2__card-icon
+					margin: 37px 34px 34px 27px
+					width: 45px
+					height: 45px
+					@extend %bg-parametres
+					background-image: url('../images/src/section_2/Vector.svg')
+
+				.section_2__card-text-wrap
+
+					.section_2__card-text-title
+						margin: 29px 46px 7px 0
+						font-weight: bold
+						font-size: 16px
+						line-height: 24px
+						letter-spacing: 0.1px
+						text-align: center
+						text-wrap: none
+						color: #252B42
+
+					.section_2__card-text-text
+
+		.section_2__base
+			margin-left: 121px
+			background: #FFFFFF
+			border-radius: 5px
+			display: flex
+
+			@media screen and (max-width: 414px)
+				width: 414px
+				margin: 0 auto
+				justify-content: center
+			
+			
+
+			.section_2__base__title-list
+				display: flex
+				flex-direction: column
+
+				.section_2__base__title
+					margin: 44px 0 93px 40px
+					font-weight: 600
+					font-size: 14px
+					line-height: 24px
+					letter-spacing: 0.2px
+					color: #252B42
+
+				.section_2__base__list
+					margin-left: 17px
+					padding: 0
+
+					.section_2__list-item
+						width: 297px
+						height: 26px
+						margin-bottom: 35px
+						display: flex
+						justify-content: space-between
+	
+						.section_2__list-item-text
+							font-weight: 500
+							font-size: 16px
+							line-height: 26px
+							letter-spacing: 0.2px
+							color: #BDBDBD
+
+						.section_2__list-item-count
+							margin-left: 35px
+							display: flex
+
+							.section_2__list-item-b
+								font-weight: 700
+								font-size: 14px
+								line-height: 28px
+								display: flex
+								align-items: center
+								text-align: right
+								letter-spacing: 0.2px
+								color: #252B42
+
+							.list-item-pt
+								margin-left: 9px
+								font-size: 14px
+								line-height: 28px
+								display: flex
+								align-items: center
+								text-align: right
+								letter-spacing: 0.2px
+								color: #BDBDBD
+
+		.section_2__pie-chart
+			position: relative
+			width: 181px
+			height: 181px
+			margin-top: 176px
+			margin-left: 71px
+
+			@media screen and (max-width: 414px)
+				margin: 176px auto 0 auto
+			
+			
+
+			.section_2__pie-chart__icon
+				position: relative
+				top: 75px
+				left: 75px
+				width: 33px
+				height: 25px
+				@extend %bg-parametres
+				background-image: url('../images/src/section_2/circle/hat.svg')
+
+			.section_2__chart
+				position: relative	
+				top: -30px			
+				width: 189px
+				height: 189px
+				z-index: 1
+				@extend %bg-parametres
+				background-repeat: no-repeat			
+				background-image: url('../images/src/section_2/circle/Chart.svg')
+
+
+
+
